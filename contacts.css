@@ -73,168 +73,57 @@ input[type="checkbox"] {
 }
 .header h2 {
   position: relative;
-  top: -40%;
+  top: -140%;
   font-size: 45px;
   font-weight: 800;
-  border-left: 5px solid rgb(0, 255, 55);
-  color: white;
+  /* border-left: 5px solid rgb(0, 255, 55); */
+  color: rgb(236, 240, 6);
   margin: 10px 40px 10px 40px;
   padding-left: 5px;
 }
-.content img {
+.header h3 {
   position: relative;
-  left: 40%;
-  width: 300px;
-  border-radius: 50%;
-}
-.content_container {
-  width: 100%;
-  display: flex;
-}
-.content_container img {
-  width: 200px;
-  margin-left: 100px;
-  border-radius: 50%;
-}
-.content_container h3 {
-  font-size: 25px;
-  margin: 60px 0 0 50px;
-}
-.description {
-  margin: 20px;
-}
-.description p {
-  font-size: 25px;
-}
-.about ul {
-  margin: 20px 10px 10px 50px;
-  list-style: none;
-  display: flex;
-  flex-direction: column;
-  /* text-align: center; */
-}
-.about li {
-  font-size: 35px;
-  font-weight: 400;
-}
-.about img {
-  width: 60px;
-}
-.about h3 {
-  font-size: 30px;
-  margin: 50px 5px 30px 40px;
-  border-left: 5px solid blue;
-  padding: 5px;
-  font-weight: 800;
-}
-.fun_facts h2{
-  font-size: 30px;
-  margin: 50px 5px 30px 40px;
-  border-left: 5px solid blue;
-  padding: 5px;
-  font-weight: 800;
-}
-
-
-footer {
-  display: block;
-  background: rgb(108, 110, 110);
-  /* margin-top: 30px; */
-}
-.footer-content {
-  width: 100%;
-  display: flex;
-}
-.social-media {
-  display: block;
-  margin: 30px;
-  border-right: 1px solid #000;
-  width: 30%;
-}
-.social-media .foot-head,
-.contacts .foot-head,
-.links .foot-head {
-  font-size: 20px;
-  font-family: "kanit";
-  font-weight: bold;
-}
-.social-media a {
-  text-decoration: none;
-  color: black;
-  transition: 0.3s ease;
-}
-.social-media a:hover {
-  color: rgb(18, 4, 226);
-}
-.platforms {
-  width: 100%;
-  margin: 15px;
-  font-size: 20px;
-  padding: 5px;
-  margin: 5px;
-  font-family: "kanit";
-}
-.platforms b {
-  margin-left: 5px;
-  transition: 0.3s ease;
-}
-.platforms .bi {
-  font-size: 30px;
-  color: rgb(5, 61, 243);
-}
-.contacts {
-  width: 35%;
-  display: block;
-  margin: 30px;
-  border-right: 1px solid #000;
-}
-.phone-number {
-  margin: 20px;
-}
-.phone-number a {
-  text-decoration: none;
-  font-size: 20px;
-  color: #000;
-  transition: 0.3s ease;
-}
-.phone-number .bi {
-  font-size: 30px;
-  font-weight: 600;
-  margin: 0 10px 0 0;
-  color: rgb(5, 61, 243);
-}
-.links {
-  /* width:0%; */
-  display: block;
-  margin: 30px;
-}
-.foot-links {
-  margin: 40px;
-}
-.foot-links a {
-  text-decoration: none;
-  font-size: 20px;
-  font-family: "kanit";
-  font-weight: 300;
-  color: #000;
-  transition: 0.3s ease;
-}
-.foot-links a:hover,
-.phone-number a:hover {
-  color: blue;
-}
-.company-logo {
-  width: 100%;
-  /* height: 50px; */
+  top: -140%;
   font-size: 25px;
   font-weight: 800;
-  font-family: "kanit";
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border-top: 1px solid #000;
+  /* border-left: 5px solid rgb(0, 255, 55); */
+  color: rgb(102, 240, 10);
+  margin: 10px 40px 10px 40px;
+  padding-left: 5px;
+  text-decoration: none;
 }
-
+.contacts{
+    position: relative;
+    top: -50%;
+    left: 17%;
+    display: flex;
+    gap: 30px;
+    width: 70%;
+    margin-bottom: 100px;
+}
+.phone, .email{
+    width: 500px;
+    height: 300px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.phone i, .email i{
+    font-size: 60px;
+    margin: 20px;
+}
+.phone p, .email p{
+    font-size: 20px;
+    color: #000;
+    text-align: center;
+    margin: 30px;
+}
+.phone h3, .email h3{
+    font-size: 25px;
+    color: #000;
+}
 
 @media (max-width: 1000px) {
   nav {
